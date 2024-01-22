@@ -2038,9 +2038,9 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		border-radius: 0.35em;
+		border-radius: 0.35/em;
 		border: 0;
-		display: inline-block;
+		display: inline-flex;
 		position: relative;
 	}
 
@@ -2143,7 +2143,9 @@ input, select, textarea {
 
 			.image.avatar img {
 				border-radius: 100%;
-				width: 100%;
+				display: inline;
+				margin: 0 -5em 0 -2.5em;
+				width: 175%;
 			}
 
 /* List */
@@ -2197,7 +2199,7 @@ input, select, textarea {
 
 		ul.icons li {
 			display: inline-block;
-			padding: 0 1em 0 0;
+			padding: 0 1.5em 0 0;
 		}
 
 			ul.icons li:last-child {
@@ -2205,7 +2207,7 @@ input, select, textarea {
 			}
 
 			ul.icons li .icon:before {
-				font-size: 1.5em;
+				font-size: .8em;
 			}
 
 /* Labeled Icons */
@@ -2216,10 +2218,11 @@ input, select, textarea {
 	}
 
 		ul.labeled-icons li {
-			line-height: 1.75em;
-			margin: 1.5em 0 0 0;
+			line-height: 1.5em;
+			margin: .5em 0 0 0;
 			padding-left: 2.25em;
 			position: relative;
+			font-size: 0.8em;
 		}
 
 			ul.labeled-icons li:first-child {
@@ -2593,7 +2596,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), url("../../images/Untitled.png");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -2646,7 +2649,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer .icons {
-		margin: 1em 0 0 0;
+		margin: 0 0 0 0;
 	}
 
 		#footer .icons a {
@@ -2655,18 +2658,18 @@ input, select, textarea {
 
 	#footer .copyright {
 		color: rgba(255, 255, 255, 0.4);
-		font-size: 0.8em;
+		font-size: 0.7em;
 		list-style: none;
-		margin: 1em 0 0 0;
+		margin: 0 1em 0 0;
 		padding: 0;
 	}
 
 		#footer .copyright li {
 			border-left: solid 1px rgba(255, 255, 255, 0.25);
 			display: inline-block;
-			line-height: 1em;
-			margin-left: 0.75em;
-			padding-left: 0.75em;
+			line-height: 0.5em;
+			margin-left: 0.95em;
+			padding-left: 0.95em;
 		}
 
 			#footer .copyright li:first-child {
@@ -3078,7 +3081,7 @@ input, select, textarea {
 			#footer {
 				background-attachment: scroll;
 				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+				background-image: url("images/overlay.png"), url("../../images/Untitled.png");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
